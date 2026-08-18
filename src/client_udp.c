@@ -71,7 +71,7 @@ void EffacerHTML()
     fclose(dossier);
 }
 
-int main(int argc, char *argv[])
+int main(void)
 {
     // Ouvrerture du socket client
     int socketClient = socket(AF_INET, SOCK_DGRAM, 0);
@@ -107,7 +107,6 @@ int main(int argc, char *argv[])
 
     return 0;
 }
-
 
 
 
