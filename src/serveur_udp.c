@@ -42,7 +42,7 @@ void EffacerHTML()
     fclose(dossier);
 }
 
-int main(int argc, char *argv[])
+int main(void)
 {
     EffacerHTML();
     // Ouvrerture du socket serveur

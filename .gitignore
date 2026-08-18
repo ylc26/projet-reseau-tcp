@@ -1,0 +1,12 @@
+# Compilation C
+bin/
+*.o
+
+# Fichiers générés pendant les démonstrations
+RéservationTCP.html
+RéservationUDP.html
+
+# Environnements de développement
+.idea/
+.vscode/
+.DS_Store
